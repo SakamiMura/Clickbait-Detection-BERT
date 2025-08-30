@@ -31,7 +31,7 @@ The system achieves high accuracy in distinguishing between clickbait and legiti
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   TRAINING      │    │    SCRAPING     │    │   EVALUATION    │
 │                 │    │                 │    │                 │
-│ model_trainer.py│───▶│headlines_scraper│───▶│model_evaluator  │
+│ model_trainer.py│──▶│headlines_scraper │──▶│model_evaluator  │
 │                 │    │      .py        │    │      .py        │
 │ ┌─────────────┐ │    │ ┌─────────────┐ │    │ ┌─────────────┐ │
 │ │ClickbaitData│ │    │ │  Selenium   │ │    │ │Metrics &    │ │
